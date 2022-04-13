@@ -7,9 +7,9 @@ My chatbot is an Eliza style chatbot with somewhat beyond-Eliza functionality. T
 
 These three functions are the main functions used to create a response: <br /> 
 
-FindLargest finds the longest input position within the user input and gives the “find” functions the position.<br /> 
-The find_input_match function uses the largest position to find the corresponding responses and returns a vector containing the responses to be later used for responding to the user.<br />  
-The find_keyword function is mandatory for the chatbot to respond to certain questions. It finds the position of the longest input and removes everything up until that point, leaving behind keywords the bot will use to respond to the user.<br /> 
+* FindLargest finds the longest input position within the user input and gives the “find” functions the position.<br /> 
+* The find_input_match function uses the largest position to find the corresponding responses and returns a vector containing the responses to be later used for responding to the user.<br />  
+* The find_keyword function is mandatory for the chatbot to respond to certain questions. It finds the position of the longest input and removes everything up until that point, leaving behind keywords the bot will use to respond to the user.<br /> 
 There are other important functions; “swapping” and “separator”, which are used for swapping/transposing of words such as “you” to “me”, “are” to “am”, etc. They work together to make for better responses to user input.
 
 
