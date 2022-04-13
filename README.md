@@ -30,8 +30,8 @@ There are other important functions; “swapping” and “separator”, which a
   
 ## References 
 
-I tried to understand this chatbot, but was only able to understand some components, not all. I do not know what boost is or how to use it yet and I did not understand how they transposed/swapped words using push_back and make_pair.
+I tried to understand this chatbot, but was only able to understand some components, not all. I do not know what boost is or how to use it yet and I did not understand how they transposed/swapped words using push_back and make_pair. <br />
 http://www.martinbroadhurst.com/eliza-in-c.html
 
-I read this books chapter to further my understanding.
+I read this books chapter to further my understanding.<br />
 https://link.springer.com/chapter/10.1007/978-3-030-50146-4_3
